@@ -1,0 +1,31 @@
+.Header {
+  /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  background-color: #4db4f3;
+}
+
+.title {
+  /* color: white; */
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#navItems {
+  opacity: 0.5;
+}
+
+#navItems:hover {
+  opacity: 1;
+}
+
+.cutomerheaderSearch {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 70%;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    width: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.searchStyle {
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .searchStyle {
+    width: 140% !important;
+    margin: auto !important;
+  }
+}
